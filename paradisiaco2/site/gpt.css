@@ -1,0 +1,709 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    background-image: url(../imagens/galeria/brown-mountains-aerial-view-mountain-range-landscape-2560x1440-2837\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    width: 100%;
+    display: flex;
+}
+
+/*NAVBAR START*/
+.container-fluid {
+    background-color: transparent;
+    height: 140px;
+    width: 100%;
+    color: #000000;
+    padding: 0% 0%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-family: Poppins, sans-serif;
+}
+
+/*LOGO END*/
+.item-1 {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 1%;
+    justify-content: space-between;
+
+    @font-face {
+        font-family: myFont;
+        src: url();
+    }
+}
+
+.item-1 h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.item-1 img {
+    height: 90px;
+    padding-right: 2%;
+}
+
+/*LOGO END*/
+
+/*SEARCH START*/
+.box-busca {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 17%;
+    height: 50%;
+    padding: 0 17%;
+    padding-left: 27.5%;
+}
+
+
+.search-box-input::placeholder {
+
+    color: #ffffff;
+    opacity: 0.6;
+
+}
+
+/* Chrome, Opera ySafari */
+.search-box-input::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+/* Firefox 19+ */
+.search-box-input::-moz-placeholder {
+    color: #ffffff;
+}
+
+/* IE 10+ y Edge */
+.search-box-input:-ms-input-placeholder {
+    color: #ffffff;
+}
+
+
+.search-box form {
+
+    display: flex;
+    border-radius: 25px;
+    background-color: #000000;
+    height: 45px;
+
+}
+
+.search-box:hover .search-box-input {
+
+    padding-left: 4em;
+    padding-right: 1em;
+    width: 250px;
+
+}
+
+.search-box-input {
+
+    outline: 0;
+    font-size: 1.2em;
+    color: #ffffff;
+    width: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    transition: .45s;
+
+}
+
+.search-box-button {
+
+    display: flex;
+    background-image: url(../imagens/img/search\ \(2\).png);
+    background-size: cover;
+    border-radius: 25%;
+    width: 45px;
+    height: 45px;
+    background-color: #14c0c7;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+
+}
+
+.search-box-button:active {
+
+    transform: scale(.85);
+
+}
+
+.search-box-icone {
+
+    margin: auto;
+    color: #333;
+
+}
+
+
+@media screen and (min-width: 400px) {
+
+    .search-box:hover .search-box-input {
+        width: 300px;
+    }
+
+}
+
+/*SEARCH END*/
+
+
+/*LINKS START*/
+.links {
+    padding-left: 0%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 22px;
+    margin-left: 22px;
+
+}
+
+.container-fluid-links {
+    align-items: end;
+    justify-content: flex-end;
+    padding-left: 0%;
+}
+
+/* Quando o ponteiro do mouse passa no link dentro do elemento com a classe .links */
+.links a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #000000;
+    font-weight: 600;
+    border-radius: 6px;
+    border-width: 3px;
+    /* Ajuste a largura da borda conforme necessário */
+    /* Borda circular */
+    transition: transform 0.3s, color 0.3s, background-color 0.3s, opacity 0.3s, border-width 0.3s;
+    /* Adiciona transição suave para o tamanho, cor do texto, cor de fundo, opacidade e largura da borda */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Adiciona sombra suave */
+}
+
+/* Quando o ponteiro do mouse passa no link dentro do elemento com a classe .links */
+.link a:hover {
+    color: #000000;
+    background-color: #ffffff;
+    transform: scale(2);
+    /* Aumenta o tamanho ao passar o mouse */
+    opacity: 0.6;
+    /* Altera a opacidade ao passar o mouse */
+    border-width: 5px;
+    /* Ajuste a largura da borda ao passar o mouse */
+}
+
+.link-1 a:hover {
+    padding-top: 3%;
+    margin-right: 0px;
+}
+
+.link-2 a:hover {
+    padding-top: 3%;
+    margin-right: 0px;
+}
+
+.link-3 a:hover {
+    padding-top: 3%;
+    margin-right: 0px;
+}
+
+.link-4 a:hover {
+    padding-top: 3%;
+    margin-right: 0px;
+}
+
+/* quando o link for selecionado */
+a:active {
+    color: #333;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons img {
+    height: 40px;
+    padding-bottom: 5px;
+    padding-left: 30%;
+}
+
+.icon-1 {
+    padding-left: 55%;
+}
+
+.icon-2 {
+    padding-left: 12%;
+}
+
+.icon-3 {
+    padding-left: 12%;
+}
+
+.link {
+    display: flex;
+}
+
+.link-1 {
+    padding-top: 7%;
+}
+
+.link-2 {
+    padding-top: 7%;
+}
+
+.link-3 {
+    padding-top: 7%;
+}
+
+.link-4 {
+    padding-top: 7%;
+}
+
+/*LINKS END*/
+/*NAVBAR END*/
+
+.gallery-1 {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    background-color: #000000;
+    width: 80%;
+    text-align: right;
+    padding: 30px 20px;
+    border: 3px solid #000000;
+    border-radius: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery img {
+    height: 300px;
+}
+.gallery-image {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+#lightbox-image {
+    max-width: 80%;
+    max-height: 80%;
+    border: 2px solid #fff;
+}
+
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*CONTEÚDO START*/
+
+.textin h3 {
+    text-align: center;
+    color: #5E4233;
+    font-size: 40px;
+}
+
+.conteudo-11 {
+    margin-top: 50%;
+    margin-bottom: 10%;
+    background-color: #000000;
+    width: 25px;
+    text-align: right;
+    padding: 30px 20px;
+    border: 3px solid #000000;
+    border-radius: 20px;
+}
+
+.conteudo-1 {
+    display: flex;
+    background-color: #000000;
+    width: 25px;
+    text-align: right;
+    padding: 30px 20px;
+    border: 3px solid #000000;
+    border-radius: 20px;
+}
+
+.item-5 {
+    border: 1px solid #BA9E81;
+    border-radius: 5px;
+}
+
+.item-5 h3 {
+    font-size: 40px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+}
+
+.item-5 h4 {
+    font-size: 20px;
+    text-align: center;
+    color: #d7d6d6;
+}
+
+.item-4 h2 {
+    padding: 30px;
+    font-size: 30px;
+    color: #5E4233;
+    text-align: center;
+}
+
+.item-4 h3 {
+    padding: 5px 20px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.item-4 p {
+    padding: 5px 0px;
+    padding-left: 5%;
+    padding-right: 10%;
+    font-size: 15px;
+    text-indent: 20px;
+    /* Altere o valor conforme necessário */
+    color: #ffffff;
+    text-align: left;
+}
+
+/*SEGUNDA PARTE*/
+
+.conteudo-2 {
+    margin-top: 15%;
+    display: flex;
+}
+
+.item-2 h3 {
+    padding: 30px;
+    font-size: 30px;
+    color: #5E4233;
+    text-align: center;
+}
+
+.item-2 p {
+    padding: 5px 0px;
+    padding-left: 5%;
+    padding-right: 10%;
+    font-size: 15px;
+    text-indent: 20px;
+    /* Altere o valor conforme necessário */
+    color: #ffffff;
+    text-align: right;
+}
+
+.item-3 img {
+    height: 600px;
+}
+
+.item-3 h4 {
+    padding: 5px 20px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.item-3 p {
+    text-align: left;
+    font-size: 90%;
+    padding-top: 3%;
+    color: #d7d6d6;
+}
+
+/*CONTEÚDO END*/
+
+/*CONTEÚDO-2 START*/
+
+.conteudo-33 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: #000000;
+    width: 25px;
+    text-align: right;
+    padding: 30px 20px;
+    border: 3px solid #000000;
+    border-radius: 20px;
+}
+
+.conteudo-3 {
+    background-color: #000000;
+    width: 25px;
+    text-align: right;
+    padding: 30px 20px;
+    border: 3px solid #000000;
+    border-radius: 20px;
+}
+
+.conteudo-3 img {
+    height: 300px;
+}
+
+.conteudo-33 h4 {
+    text-align: center;
+    color: #5E4233;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.cont-1 {
+    display: flex;
+    padding-top: 10px;
+}
+
+.cont-1 p {
+    text-align: left;
+    padding: 0 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #ffffff;
+    font-size: 15;
+    
+}
+
+.cont-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 5%;
+}
+
+.cont-2 p {
+    text-align: rigth;
+    padding: 0 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #ffffff;
+    font-size: 15;
+}
+
+.cont-3 {
+    display: flex;
+    padding-top: 5%;
+}
+
+.cont-3 p {
+    text-align: left;
+    padding: 0 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #ffffff;
+    font-size: 15;
+}
+
+.cont-4 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 5%;
+}
+
+.cont-4 p {
+    text-align: right;
+    padding: 0 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #ffffff;
+    font-size: 15;
+}
+
+.cont-5 {
+    display: flex;
+    padding-top: 20px;
+}
+
+.cont-5 p {
+    text-align: left;
+    padding: 0 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #ffffff;
+    font-size: 15;
+}
+
+.cont-6 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 5%;
+}
+
+.cont-6 p {
+    text-align: right;
+    padding: 0 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #ffffff;
+    font-size: 15;
+}
+
+/*CONTEÚDO-2 END*/
+
+/*FOOTER START*/
+.footer {
+    display: flow-root;
+    background-color: #323232;
+    color: #ffffff;
+    text-align: center;
+    padding: 1px 0;
+}
+
+.footer a {
+    color: #fff;
+    font-size: medium;
+}
+
+footer a:hover {
+    color: #1E4593;
+}
+
+.item-1 p {
+    padding-left: 0%;
+}
+
+.icons-footer {
+    padding-left: 10%;
+}
+
+.icons-footer img {
+    height: 45px;
+    padding: 0 3%;
+}
+
+#contact {
+
+    background-color: #000000;
+    width: 100%;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    color: #ffffff;
+    text-align: center;
+
+    padding: 12px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+    /* Isso garante que o contêiner ocupe pelo menos 100% da altura da tela */
+}
+
+.hr-container {
+    width: 70%;
+}
+
+.footer-1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 3px 5px;
+    text-align: left;
+    width: 80%;
+    /* Garante que ocupa toda a largura do .footer-container */
+}
+
+.footer-1 a {
+    text-decoration: none;
+}
+
+.footer-1 {
+    height: 15rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 50px;
+    text-align: left;
+}
+
+.footer-1 a {
+    text-decoration: none;
+    padding: 0px 0px;
+}
+
+.footer-item-01 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-item-02 {
+    display: flexbox;
+}
+
+.footer-item-03 {
+    display: flexbox;
+}
+
+.footer-item-04 {
+    display: flexbox;
+}
+
+.footer-item-05 {
+    display: flexbox;
+}
+
+.footer-desc {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    text-align: right;
+    padding-left: 13.3%;
+}
+
+.footer-desc a {
+    padding: 0% 2%;
+}
+
+.footer-desc h3 {
+    padding: 0% 2%;
+}
+
+footer p {
+    text-align: left;
+    padding-left: 15%;
+}
+
+/*FOOTER END*/

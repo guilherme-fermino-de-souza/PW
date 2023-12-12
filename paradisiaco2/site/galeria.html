@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="galeria.css">
+    <title>Galeria</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container-fluid">
+            <!--logo -->
+            <div class="item item-1">
+                <div class="logo-text">
+                    <h1>Pousada Amondorf</h1>
+                </div>
+            </div>
+
+
+            <!--Box Busca-->
+            <!--search start-->
+            <div class="box-busca">
+
+                <div class="search-box">
+
+                    <form method="post" action="#">
+
+                        <input type="text" class="search-box-input" name="busca" placeholder="Faça sua Pesquisa">
+                        <button class="search-box-button"><i class="search-box-icone icon icon-search"></i></button>
+
+                    </form>
+
+                </div><!-- Search end-->
+            </div>
+            <!--links start-->
+            <div class="container-fluid-links">
+                <div class="links">
+                    <div class="icons">
+                        <div class="icon-1">
+                            <a href=""><img src="../imagens/img/facebook02.png" alt="3px"></a>
+                        </div>
+                        <div class="icon-2">
+                            <a href=""><img src="../imagens/img/instagram.png" alt="3px"></a>
+                        </div>
+                        <div class="icon-3">
+                            <a href=""><img src="../imagens/img/whatsapp.png" alt="3px"></a>
+                        </div>
+                    </div>
+
+                    <ul>
+                        <div class="link">
+                            <div class="link-1">
+                                <li><a href="../site/gpt.html">INÍCIO</a></li>
+                            </div>
+                            <div class="link-2">
+                                <li><a href="../site/gtpchat.html">ACOMODAÇÕES</a></li>
+                            </div>
+                            <div class="link-3">
+                                <li><a href="../site/galeria.html">GALERIA</a></li>
+                            </div>
+                            <div class="link-4">
+                                <li><a href="../site/form.html">FAÇA SEU ORÇAMENTO</a></li>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!--GALLERY START-->
+    <div class="lightbox" id="lightbox">
+        <img src="https://via.placeholder.com/400" alt="Imagem" id="lightbox-image">
+        <span class="close-button" id="close-button">&times;</span>
+    </div>
+
+    <div class="container gallery-1">
+        <div class="gallery">
+            <img src="../imagens/acomoda/gallery-chalet-01.jpg" alt="Imagem 1" class="gallery-image"
+                onclick="openLightbox('../imagens/acomoda/gallery-chalet-01.jpg')">
+            <img src="../imagens/acomoda/gallery-chalet-02.jpg" alt="Imagem 1" class="gallery-image"
+                onclick="openLightbox('../imagens/acomoda/gallery-chalet-02.jpg')">
+            <img src="../imagens/acomoda/gallery-chalet-03.jpg" alt="Imagem 1" class="gallery-image"
+                onclick="openLightbox('../imagens/acomoda/gallery-chalet-03.jpg')">
+            <img src="../imagens/acomoda/gallery-chalet-04.jpg" alt="Imagem 1" class="gallery-image"
+                onclick="openLightbox('../imagens/acomoda/gallery-chalet-04.jpg')">
+            <img src="../imagens/acomoda/gallery-chalet-05.jpg" alt="Imagem 1" class="gallery-image"
+                onclick="openLightbox('../imagens/acomoda/gallery-chalet-05.jpg')">
+            <img src="../imagens/acomoda/gallery-chalet-06.jpg" alt="Imagem 1" class="gallery-image"
+                onclick="openLightbox('../imagens/acomoda/gallery-chalet-06.jpg')">
+            <!-- Adicione mais imagens conforme necessário -->
+        </div>
+    </div>
+    <!--GALLERY END-->
+
+    <!--FOOTER START-->
+    <div class="footer">
+        <section id="contact">
+            <h2>Entre em Contato Conosco</h2>
+            <p>Estamos aqui para ajudar. Entre em contato para obter mais informações sobre nossos serviços de
+                hospedagem.
+            </p>
+            <a href="../site/form.html" class="cta-button">Enviar Email</a>
+
+        </section>
+
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-1">
+                    <div class="footer-item-1">
+                        <h3>Amondorf</h3>
+                        <p>O Descanso Que você Merece</p>
+
+                        <div class="icons-footer">
+                            <img src="../imagens/img/facebook02.png" alt="3px">
+                            <img src="../imagens/img/instagram.png" alt="3px">
+                            <img src="../imagens/img/whatsapp.png" alt="3px">
+                        </div>
+                    </div>
+
+                    <div class="footer-item-2">
+                        <h4>AMON</h4>
+                        <a href="#">Sobre</a><br>
+                        <a href="#">Blog</a><br>
+                        <a href="#">Carreiras</a><br>
+                        <a href="#">Trabalhe conosco</a>
+
+
+                    </div>
+
+                    <div class="footer-item-3">
+                        <h4>Suporte</h4>
+                        <a href="#">Ajuda</a><br>
+                        <a href="#">Reporte um problema</a>
+                    </div>
+
+                    <div class="footer-item-4">
+                        <h4>Nossas comunidades</h4>
+                        <a href="#">Comunidade Amon</a><br>
+                        <a href="#">Forum Amon</a><br>
+                        <a href="#">Chat Amon</a>
+                    </div>
+                    <div class="footer-item-5">
+                        <h4>Mais</h4>
+                        <a href="#">Modus operandi</a><br>
+                        <a href="#">Nossos serviços</a><br>
+                        <a href="#">Amon plus</a>
+                    </div>
+                </div>
+
+                <div class="hr-container">
+
+                    <hr>
+
+                </div>
+            </div>
+
+            <div class="footer-desc">
+                <h3>amon://a</h3>
+                <a href="#">Website Privacy Notice</a>
+                <a href="#">Cookies</a>
+                <a href="#">Legal</a>
+                <a href="#">Community Participation Guidelines</a>
+            </div>
+            <p>Todos os direitos perrtencentes a PousadasAmon&copy;<br>desde 1848-2023 pela contribuidora individual
+                belaruss.org. Conteúdo disponível sobre a <a href="#">Licença de Direitos Comuns</a> .</p>
+
+        </footer>
+
+
+        <!--FOOTER END-->
+
+    <script src="style.js"></script>
+</body>
+
+</html>
