@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gpt.css">
+    <title>Pousada Amondorf</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <!--logo -->
+            <div class="item item-1">
+                <div class="logo-text">
+                    <h1>Pousada Amondorf</h1>
+                </div>
+            </div>
+
+
+            <!--Box Busca-->
+            <!--search start-->
+            <div class="box-busca">
+
+                <div class="search-box">
+
+                    <form method="post" action="#">
+
+                        <input type="text" class="search-box-input" name="busca" placeholder="Faça sua Pesquisa">
+                        <button class="search-box-button"><i class="search-box-icone icon icon-search"></i></button>
+
+                    </form>
+
+                </div><!-- Search end-->
+            </div>
+            <!--links start-->
+            <div class="container-fluid-links">
+                <div class="links">
+                    <div class="icons">
+                        <div class="icon-1">
+                            <a href=""><img src="../imagens/img/facebook02.png" alt="3px"></a>
+                        </div>
+                        <div class="icon-2">
+                            <a href=""><img src="../imagens/img/instagram.png" alt="3px"></a>
+                        </div>
+                        <div class="icon-3">
+                            <a href=""><img src="../imagens/img/whatsapp.png" alt="3px"></a>
+                        </div>
+                    </div>
+
+                    <ul>
+                        <div class="link">
+                            <div class="link-1">
+                                <li><a href="../site/gpt.html">INÍCIO</a></li>
+                            </div>
+                            <div class="link-2">
+                                <li><a href="../site/gtpchat.html">ACOMODAÇÕES</a></li>
+                            </div>
+                            <div class="link-3">
+                                <li><a href="../site/galeria.html">GALERIA</a></li>
+                            </div>
+                            <div class="link-4">
+                                <li><a href="../site/form.html">FAÇA SEU ORÇAMENTO</a></li>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+
+    <div class="lightbox" id="lightbox">
+        <img src="https://via.placeholder.com/400" alt="Imagem" id="lightbox-image">
+        <span class="close-button" id="close-button">&times;</span>
+    </div>
+
+    <!--CONTEUDO START-->
+    <div class="container conteudo-11">
+        <div class="textin">
+            <h3>Mais Sobre Nós</h3>
+        </div>
+        <div class="container conteudo-1">
+            <div class="item item-5">
+                <img src="../imagens/img/logo-draw-01.jpg" alt="Imagem 1" class="gallery-image"
+                    onclick="openLightbox('../imagens/img/logo-draw-01.jpg')">
+                <h3>Amondorf</h3><br>
+                <h4>O Nome da Elegância no Gelo</h4>
+            </div>
+            <div class="item item-4">
+                <h2>Quem Somos</h2>
+                <p> Bem-vindo ao Refúgio Amondorf, uma joia escondida no coração gélido de nossa majestosa Zarnovia.
+                    Aqui,
+                    na nossa pousada de luxo, proporcionamos uma experiência única e inesquecível,
+                    onde o calor humano e o encanto da tradição se entrelaçam para criar momentos de serenidade em meio
+                    ao
+                    clima frio que abraça nossa encantadora localidade.
+
+                    <br>
+                <h3>Descubra Amondorf: O Refúgio na Neve de Zarnovia</h3>
+
+                <p> Situada em uma paisagem coberta de neve que ecoa a serenidade zarnoviana, a pousada Amondorf é um
+                    retiro
+                    perfeito para aqueles que buscam escapar das agitações do cotidiano. Seja recebido pelo cenário
+                    pitoresco das montanhas de Zarnovia, enquanto nosso refúgio se destaca como um oásis de
+                    tranquilidade
+                    em meio ao frio siberiano.</p>
+
+                <br>
+                <h3>Aconchego em Cada Detalhe</h3>
+
+                <p> Em Amondorf, calor é mais do que uma temperatura; é um sentimento que você experimentará em cada
+                    canto.
+                    Nossos quartos, elegantemente decorados, são espaços de conforto e elegância, equipados com lareiras
+                    que
+                    proporcionam uma atmosfera acolhedora nos dias mais frios.Além de desfrutar de uma culinária que
+                    celebra
+                    os sabores robustos de Zarnovia. Nosso restaurante oferece uma
+                    variedade de pratos locais e internacionais, preparados por chefs talentosos que buscam conquistar
+                    seu
+                    paladar e aquecer seu coração. Também Deixe-se envolver pelo luxo de nossas instalações de spa, onde
+                    massagens revigorantes e tratamentos terapêuticos oferecem um alívio bem-vindo após um dia
+                    explorando as
+                    maravilhas de Zarnovia. Nossas saunas e piscinas aquecidas convidam você a relaxar enquanto
+                    aprecia a
+                    paisagem gelada que nos rodeia.</p>
+
+
+            </div>
+
+
+        </div>
+
+        <div class="container conteudo-2">
+            <div class="item item-2">
+                <h3>Como Surgimos</h3>
+
+                <p>Há mais de 150 anos, nos confins gelados de Zarnovia, onde as montanhas se elevam majestosas e o
+                    frio
+                    cortante é parte da vida cotidiana, nasceu uma pousada destinada a se tornar um marco de elegância e
+                    hospitalidade: Amondorf.
+
+                    Fundada em 1872 por Mikhail Amondorf, um visionário local apaixonado pela beleza da região, a
+                    pousada
+                    começou como uma modesta estalagem destinada a abrigar viajantes que desafiavam as condições
+                    adversas
+                    para explorar as paisagens selvagens e inexploradas de Zarnovia.</p>
+                <p>Ao longo das décadas, a pousada Amondorf tornou-se um ponto de referência no coração do país
+                    inspirado
+                    na Rússia. A família Amondorf dedicou-se a aprimorar e expandir a estalagem, transformando-a
+                    gradualmente em um refúgio de luxo que atrai visitantes de todo o mundo em busca de uma experiência
+                    única.</p>
+
+                <p>Os quartos que outrora abrigavam aventureiros destemidos foram transformados em espaços de elegância
+                    e
+                    conforto, decorados com toques clássicos e equipados com as comodidades mais modernas. A lareira
+                    original, que aquecia os hóspedes nos primeiros dias gelados, ainda arde no centro da pousada,
+                    simbolizando a tradição que permanece viva ao longo dos anos.</p>
+
+                <p>A culinária refinada de Zarnovia tornou-se uma parte integral da experiência na Amondorf, com
+                    chefs
+                    talentosos explorando sabores locais e internacionais para criar uma oferta gastronômica que cativa
+                    paladares exigentes.</p>
+
+                <p>Ao longo das décadas, a Pousada Amondorf resistiu ao teste do tempo, adaptando-se às mudanças, mas
+                    mantendo-se fiel à sua herança e à sua promessa de oferecer uma experiência única. A hospitalidade
+                    calorosa da família Amondorf e de sua equipe dedicada continua a ser o coração pulsante da pousada,
+                    fazendo com que cada hóspede se sinta parte de uma história centenária.</p>
+
+                <p>Hoje, a Pousada Amondorf permanece como um farol de elegância no gelo, contando a história de uma
+                    jornada extraordinária que começou há mais de um século. Cada detalhe, cada serviço, e cada calorosa
+                    saudação reflete o compromisso duradouro da pousada em proporcionar momentos inesquecíveis em meio à
+                    beleza intocada de Zarnovia.</p>
+
+
+            </div>
+
+            <div class="item item-3">
+                <img src="../imagens/img/fundador-caraaleatorio-01.jpg" alt="Imagem 1" class="gallery-image"
+                    onclick="openLightbox('../imagens/img/fundador-caraaleatorio-01.jpg')">
+                <h4>Mikhail Henestein Einstein Amondorf(1846-1945)</h4>
+                <p>(Mikhail Amondorf, uma figura lendária em Zarnovia, é reverenciado como o fundador visionário da
+                    pousada que leva seu nome. Nascido no coração das imponentes montanhas, Mikhail cresceu cercado pela
+                    beleza inigualável e pelo frio desafiador de sua terra natal).</p>
+            </div>
+        </div>
+    </div>
+
+    <!--CONTEUDO END-->
+
+
+    <!--CONTEUDO-2 START-->
+
+    <div class="container conteudo-33">
+        <div class="textin">
+            <h3>O Que Oferecemos</h3>
+        </div>
+        <div class="container conteudo-3">
+            <div class="cont-1">
+                <img src="../imagens/acomoda/suites-servants-2.jpg" alt="Imagem 1" class="gallery-image"
+                    onclick="openLightbox('../imagens/acomoda/suites-servants-2.jpg')">
+                <div class="texto-1">
+                    <h4> Serventes Profissionais e Competentes</h4>
+                    <p>Na Pousada Amondorf, nossa equipe de serventes é tão excepcional quanto as majestosas montanhas
+                        de Zarnovia. Com profissionalismo e competência, eles estão dedicados a tornar sua estadia
+                        luxuosa e inesquecível. Deixe-nos cuidar de cada detalhe, enquanto você desfruta da
+                        hospitalidade calorosa e do serviço impecável em nossa pousada de altitudes elevadas.</p>
+                </div>
+            </div>
+            <div class="cont-2">
+                <img src="../imagens/acomoda/suites-chaletroom-01.jpg" alt="Imagem 1" class="gallery-image"
+                    onclick="openLightbox('../imagens/acomoda/suites-chaletroom-01.jpg')">
+                <div class="texto-2">
+                    <h4>Quartos Aconchegantes em Meio ao Frio Desolador</h4>
+                    <p>Em Zarnovia, onde as noites são longas e o frio desolador envolve a terra, a Pousada Amondorf
+                        oferece quartos aconchegantes e requintados. Proteja-se do clima gelado em nossos quartos,
+                        projetados para proporcionar o máximo de conforto. Sinta o calor da hospitalidade zarnoviana
+                        enquanto admira as paisagens geladas além das janelas.</p>
+                </div>
+            </div>
+            <div class="cont-3">
+                <img src="../imagens/acomoda/suites-food-05.jpg" alt="Imagem 1" class="gallery-image"
+                    onclick="openLightbox('../imagens/acomoda/suites-food-05.jpg')">
+                <div class="texto-3">
+                    <h4>Cardápio Variado com Chefes Mundialmente Consagrados:</h4>
+                    <p>Em nossa pousada, oferecemos uma experiência gastronômica única. Desfrute de uma grande variedade
+                        em nosso cardápio, preparado por chefs com renome mundial, nomes que ecoam a tradição
+                        zarnoviana, como os chefes Natalya Petrovich, Ivanov Kuznetsov,Ekaterina Romanova, Dmitri
+                        Voronin e Svetlana Popova. Deixe-nos
+                        encantar seu paladar enquanto você experimenta a riqueza culinária de Zarnovia.
+                    </p>
+                </div>
+            </div>
+            <div class="cont-4">
+                <img src="../imagens/acomoda/suites-wine-06.jpg" alt="Imagem 1" class="gallery-image"
+                    onclick="openLightbox('../imagens/acomoda/suites-wine-06.jpg')">
+                <div class="texto-4">
+                    <h4>Vinho Premiado com 500 Anos de Safra</h4>
+                    <p>Nossas bebidas são verdadeiras joias, com destaque para o vinho que se orgulha de mais de 500
+                        anos de safra. Na Pousada Amondorf, saboreie o considerado melhor vinho do mundo, uma
+                        experiência que transcende o tempo. Deleite-se com a riqueza e complexidade desta bebida única
+                        em meio à atmosfera luxuosa e gelada de Zarnovia.</p>
+                </div>
+            </div>
+            <div class="cont-5">
+                <img src="../imagens/acomoda/suites-bathouse-04.jpg" alt="Imagem 1" class="gallery-image"
+                    onclick="openLightbox('../imagens/acomoda/suites-bathouse-04.jpg')">
+                <div class="texto-5">
+                    <h4> Áreas de Lazer e Conforto para Noites Longas</h4>
+                    <p>Enquanto as noites se estendem em Zarnovia, nossas áreas de lazer e conforto oferecem refúgio.
+                        Desfrute de ambientes acolhedores, protegidos do frio rigoroso. Relaxe em nossos espaços
+                        elegantes, onde cada detalhe é pensado para tornar sua estadia memorável, mesmo nas longas
+                        noites zarnovianas.</p>
+                </div>
+            </div>
+            <div class="cont-6">
+                <img src="../imagens/acomoda/suites-snowboard-3.jpg" alt="Imagem 1" class="gallery-image"
+                    onclick="openLightbox('../imagens/acomoda/suites-snowboard-3.jpg')">
+                <div class="texto-6">
+                    <h4>Esportes e Aventuras nas Majestosas Montanhas</h4>
+                    <p>Para aqueles que buscam adrenalina, a Pousada Amondorf é o ponto de partida para emocionantes
+                        aventuras nas montanhas de Zarnovia. Pratique snowboard, conquiste picos em escaladas
+                        desafiadoras e participe de eventos emocionantes em meio à beleza congelada do nosso amado e
+                        consagrado país
+                        . Experimente a emoção e a beleza da natureza em sua forma mais majestosa.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--CONTEUDO-2 END-->
+
+
+    <!--FOOTER START-->
+    <div class="footer">
+        <section id="contact">
+            <h2>Entre em Contato Conosco</h2>
+            <p>Estamos aqui para ajudar. Entre em contato para obter mais informações sobre nossos serviços de
+                hospedagem.
+            </p>
+            <a href="../site/form.html" class="cta-button">Enviar Email</a>
+
+        </section>
+
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-1">
+                    <div class="footer-item-1">
+                        <h3>Amondorf</h3>
+                        <p>O Descanso Que você Merece</p>
+
+                        <div class="icons-footer">
+                            <img src="../imagens/img/facebook02.png" alt="3px">
+                            <img src="../imagens/img/instagram.png" alt="3px">
+                            <img src="../imagens/img/whatsapp.png" alt="3px">
+                        </div>
+                    </div>
+
+                    <div class="footer-item-2">
+                        <h4>AMON</h4>
+                        <a href="#">Sobre</a><br>
+                        <a href="#">Blog</a><br>
+                        <a href="#">Carreiras</a><br>
+                        <a href="#">Trabalhe conosco</a>
+
+
+                    </div>
+
+                    <div class="footer-item-3">
+                        <h4>Suporte</h4>
+                        <a href="#">Ajuda</a><br>
+                        <a href="#">Reporte um problema</a>
+                    </div>
+
+                    <div class="footer-item-4">
+                        <h4>Nossas comunidades</h4>
+                        <a href="#">Comunidade Amon</a><br>
+                        <a href="#">Forum Amon</a><br>
+                        <a href="#">Chat Amon</a>
+                    </div>
+                    <div class="footer-item-5">
+                        <h4>Mais</h4>
+                        <a href="#">Modus operandi</a><br>
+                        <a href="#">Nossos serviços</a><br>
+                        <a href="#">Amon plus</a>
+                    </div>
+                </div>
+
+                <div class="hr-container">
+                    <hr>
+                </div>
+            </div>
+
+            <div class="footer-desc">
+                <h3>amon://a</h3>
+                <a href="#">Website Privacy Notice</a>
+                <a href="#">Cookies</a>
+                <a href="#">Legal</a>
+                <a href="#">Community Participation Guidelines</a>
+            </div>
+            <p>Todos os direitos perrtencentes a PousadasAmon&copy;<br>desde 1848-2023 pela contribuidora individual
+                belaruss.org. Conteúdo disponível sobre a <a href="#">Licença de Direitos Comuns</a> .</p>
+
+        </footer>
+
+
+        <!--FOOTER END-->
+
+        <script src="gpt.js"></script>
+</body>
+
+
+</html>
