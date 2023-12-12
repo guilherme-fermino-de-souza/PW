@@ -7,7 +7,7 @@
 
 body {
     font-family: Poppins, sans-serif;
-    background-image: url(../imagens/galeria/brown-mountains-aerial-view-mountain-range-landscape-2560x1440-2837\ \(1\).jpg);
+    background-image: url(https://github.com/guilherme-fermino-de-souza/PW/issues/1#issue-2036771478);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
